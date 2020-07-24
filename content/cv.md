@@ -3,25 +3,54 @@ title: "Curriculum Vitae"
 date: "2020-07-22"
 author: "Martin Roberts"
 menu:
-  cv: 
-    identifier: cv
-    name: CV
-    title: CV
-    url: /cv/
-    weight: 1
   appointments:
     identifier: appointments
     name: Appointments
     title: Appointments
-    url: /cv/appointments/
+    url: /appointments/
     weight: 2
   awards:
     identifier: awards
     name: Awards
     title: Awards
-    url: /cv/awards/
-    weight: 3
-  
+    url: /awards/
+    weight: 6
+  education:
+    identifier: education
+    name: Education
+    title: Education
+    url: /education/
+    weight: 1  
+  publications:
+    identifier: publications
+    name: Publications
+    title: Publications
+    url: /publications/
+    weight: 3  
+  keynotes:
+    identifier: keynotes
+    name: Keynotes
+    title: Keynotes
+    url: /keynotes/
+    weight: 4  
+  conferences:
+    identifier: conferences
+    name: Conferences
+    title: Conferences
+    url: /conferences/
+    weight: 
+  teaching:
+    identifier: teaching
+    name: Teaching
+    title: Teaching
+    url: /teaching/
+    weight: 7  
+  service:
+    identifier: service
+    name: Service
+    title: Service
+    url: /service/
+    weight: 8
 ---
 # Contact
 Email: mroberts1@cantab.net\

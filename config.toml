@@ -2,7 +2,6 @@ baseURL = "https://mroberts333.net"
 languageCode = "en-us"
 title = "Martin Roberts"
 theme = "anubis"
-outputdir = "public"
 paginate = 10
 disqusShortname = ""
 googleAnalytics = ""
@@ -18,22 +17,22 @@ googleAnalytics = ""
    style = "light-without-switcher"
 
 [menu]
-  [[menu.top]]
+  [[menu.main]]
     identifier = "about"
     name = "About"
     url = "/about/"
     weight = 1
-  [[menu.top]]
+  [[menu.main]]
     identifier = "cv"
     name = "CV"
     url = "/cv/"
     weight = "2"
-   [[menu.top]]
+   [[menu.main]]
     identifier = "blog"
     name = "Blog"
     url = "/posts/"
     weight = 3
-  [[menu.top]]
+  [[menu.main]]
     identifier = "tags"
     name = "Tags"
     url = "/tags/"
