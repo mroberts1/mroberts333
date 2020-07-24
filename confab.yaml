@@ -1,0 +1,54 @@
+baseURL: ""
+languageCode: "en-us"
+title: "Martin Roberts"
+theme: "anubis"
+outputdir: "public"
+paginate: 10
+disqusShortname: ""
+googleAnalytics: ""
+
+author:
+  name: "Martin Roberts"
+
+params:
+   author: "Martin Roberts"
+   description: "In girum imus nocte et consumimur igni."
+   dateFormat: "2006-01-02"
+   paginationSinglePost: true
+   style: "light-without-switcher"
+
+menu:
+  menu.main:
+    identifier: "about"
+    name: "About"
+    url: "/about/"
+    weight: 1
+  menu.main:
+    identifier: "cv"
+    name: "CV"
+    url: "/cv/"
+    weight: 2
+  menu.main:
+    identifier: "cv"
+    name: "CV"
+    url: "/cv/"
+    weight: 2
+  menu.main:
+    identifier: "blog"
+    name: "Blog"
+    url: "/posts/"
+    weight: 3
+  menu.main:
+    identifier: "tags"
+    name: "Tags"
+    url: "/tags/"
+    weight: 4
+
+taxonomies:
+  category: "categories"
+  tag: "tags"
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true 
