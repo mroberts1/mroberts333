@@ -2,8 +2,7 @@ baseURL: ""
 languageCode: "en-us"
 title: "Martin Roberts"
 theme: "anubis"
-outputdir: "public"
-paginate: 10
+paginate: 3
 disqusShortname: ""
 googleAnalytics: ""
 
@@ -18,30 +17,29 @@ params:
    style: "light-without-switcher"
 
 menu:
-  menu.main:
-    identifier: "about"
-    name: "About"
-    url: "/about/"
+  main:
+  - identifier: about
+    name: About
+    title: About
+    url: /about/
     weight: 1
-  menu.main:
-    identifier: "cv"
-    name: "CV"
-    url: "/cv/"
+  main:
+  - identifier: cv
+    name: CV
+    title: CV
+    url: /cv/
     weight: 2
-  menu.main:
-    identifier: "cv"
-    name: "CV"
-    url: "/cv/"
-    weight: 2
-  menu.main:
-    identifier: "blog"
-    name: "Blog"
-    url: "/posts/"
+  main:
+  - identifier: blog
+    name: Blog
+    title: Blog
+    url: /posts/
     weight: 3
-  menu.main:
-    identifier: "tags"
-    name: "Tags"
-    url: "/tags/"
+  main:
+  - identifier: tags
+    name: Tags
+    title: Tags
+    url: /tags/
     weight: 4
 
 taxonomies:

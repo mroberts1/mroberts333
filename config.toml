@@ -18,26 +18,22 @@ googleAnalytics = ""
    style = "light-without-switcher"
 
 [menu]
-
-[[menu.main]]
+  [[menu.top]]
     identifier = "about"
     name = "About"
     url = "/about/"
     weight = 1
-    
-[[menu.main]]
+  [[menu.top]]
     identifier = "cv"
     name = "CV"
     url = "/cv/"
-    weight = 2
-    
-[[menu.main]]
+    weight = "2"
+   [[menu.top]]
     identifier = "blog"
     name = "Blog"
     url = "/posts/"
     weight = 3
-    
-[[menu.main]]
+  [[menu.top]]
     identifier = "tags"
     name = "Tags"
     url = "/tags/"
