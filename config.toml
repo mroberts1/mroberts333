@@ -17,8 +17,6 @@ googleAnalytics = ""
    paginationSinglePost = true
    style = "light-without-switcher"
 
-[menu]
-
 [[menu.main]]
     identifier = "about"
     name = "About"
